@@ -1,0 +1,14 @@
+img{
+    width:600px
+}
+.home{
+    background-color: darkslateblue;
+    margin:10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding:1px;
+}
+.time{
+    font-family: 'Playball', cursive;
+    font-size: xx-large;
+}
