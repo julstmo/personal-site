@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <style>
+        .message-form {
+            width: 480px;
+            font-family:Arial, Helvetica, sans-serif;
+            background-color: darkgray;
+        }
+        .message-form-inputs > * { 
+            padding: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .message-form-actions {
+            padding: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .message-form-actions button:hover { 
+            
+        }
+        i.material-icons.small {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form class="message-form">
+        <div class="message-form-inputs">
+          <label for="message-title">Title</label>
+          <input id="message-title" type="text" name="title">
+          <label for="message-content">Content</label>
+          <textarea id="message-content" name="content"  cols="60" rows="15"></textarea>
+        </div>
+        <div class="message-form-actions">
+          <button>
+            <span>SEND</span>
+            <i class="material-icons small">send</i>
+          </button>
+          <button>
+            <span>ATTACH</span>
+            <i class="material-icons small">attach_file</i>
+          </button>
+        </div>
+      </form>
+</body>
+</html>

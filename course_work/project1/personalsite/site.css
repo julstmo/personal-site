@@ -1,0 +1,93 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+html{
+    background-color: blueviolet;
+}
+.name{
+    float: left;
+    font-family: 'Titan One', cursive;
+    font-size: xxx-large;
+    padding:20px;
+}
+header{
+    font-size: x-small;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    background-color:black;
+    box-shadow: 0 2px 4px -2px white;
+    width:100%;
+}
+footer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 80px;
+    background-color: black;
+    box-shadow: 0 2px 4px 2px white;
+    width:100%;
+    padding: 20px;
+}
+ul li{
+    float: right;
+    display: inline;
+    font-size: xx-large;
+    padding: 30px;
+}
+body{
+    background-color:darkslateblue;
+    width:100%;
+    margin:auto;
+    max-width:1000px;
+    text-align:center;
+    color: white;
+    box-shadow: 0 2px 4px 0px white;
+}
+main{
+    font-size:x-large;
+    background-color:black;
+    padding-top:50px;
+    padding-bottom: 50px;
+    margin: 20px;
+}
+.t{
+    float: inherit;
+    padding: 50px;
+}
+.r{
+    float: inherit;
+    padding: 50px;
+}
+.y{
+    float: inherit;
+    padding: 50px;
+}
+a {
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color:darkorchid;
+}
+a:active{
+    text-decoration: none;
+}
+@media screen and (max-width: 775px){
+    .name {
+        float: none;
+    }
+    ul li {
+        float:none;
+        font-weight: bold;
+    }
+}

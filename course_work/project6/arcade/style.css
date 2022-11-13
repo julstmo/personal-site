@@ -1,0 +1,70 @@
+* {
+  font-family: 'Fascinate', cursive;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(180deg, hsl(255,75%,50%) 0%, hsl(196,90%,50%) 100%);
+}
+
+p {
+  font-size: 80px;
+  margin: 1px;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  padding: 40px;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.281);
+  width: 20%;
+  border-radius: 200px;
+}
+
+.info {
+  display: flex;
+}
+.board {
+  height: 300px;
+  width: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.space {
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+  font-size: 50px;
+  text-align: center;
+  line-height: 95px;
+  cursor: pointer;
+}
+
+.space:hover {
+  background-color: hsl(255,75%,50%);
+  border-radius: 10px;
+}
+
+.space:nth-child(3n) {
+  border-right: none;
+}
+.space:nth-child(n+7) {
+  border-bottom: none;
+}
+
+.space.highlight {
+  background-color: hsl(255,75%,50%);
+}

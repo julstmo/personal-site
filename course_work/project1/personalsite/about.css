@@ -1,0 +1,9 @@
+main img {
+    float:left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.second {
+    float:right;
+    margin-left: 30px;
+}

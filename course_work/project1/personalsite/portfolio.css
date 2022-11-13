@@ -1,0 +1,30 @@
+.personal-site{
+    display: inline-block;
+    background-color: blue;
+    padding: 50px;
+    margin:5px;
+}
+.qwirty{
+    display: inline-block;
+    background-color: darkslateblue;
+    padding: 50px;
+    margin:5px;
+}
+.caesar{
+    display: inline-block;
+    background-color: indigo;
+    padding: 50px;
+    margin: 5px;
+}
+.sudoku{
+    display: inline-block;
+    background-color:navy;
+    padding:50px;
+    margin:5px;
+}
+.romance{
+    display:inline-block;
+    background-color: purple;
+    padding:50px;
+    margin:10px;
+}
