@@ -1,0 +1,65 @@
+.main-nav{
+    display:flex;
+    flex-direction: row;
+    background-color: #44b;
+    padding: 2px;
+    justify-content: space-between;
+}
+.sub-nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.full-width{
+    display:none;
+}
+.short-width{
+    display: flex;
+}
+.nav-list{
+    display:flex;
+    flex-direction: row;
+}
+.company-name{
+    font-size: xx-large;
+    font-family: 'IM Fell Great Primer SC';
+    color:#44b;
+}
+.search-form {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width:100%;
+}
+.search-form input{
+    width:800px;
+    border:none;
+    border-bottom: 1px solid #44b;
+}
+.search-form button{
+    background-color: #44b;
+    border: none;
+    color:white;
+}
+.credit-offer{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: rgb(200, 0, 0);
+    width:12em;
+    font-size: large;
+    font-family:'Open Sans', sans-serif;
+}
+a{
+    display:flex;
+    padding:3px;
+    text-decoration: none;
+    border-right: 1px solid white;
+    font-family: 'Open Sans', sans-serif;
+}
+ul{
+    list-style: none;
+}
+li:last-of-type a{
+    border-right: none;
+}

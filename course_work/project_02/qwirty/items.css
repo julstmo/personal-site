@@ -1,0 +1,41 @@
+.items{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    font-family: 'Dosis';
+    align-items: flex-start;
+    flex-grow: 1;
+}
+.item{
+    display:flex;
+    flex-direction: column;
+    flex:1 0 250px;
+    width:60px;
+    margin:10px;
+    flex-wrap: wrap;
+    box-shadow:5px 5px 5px black;
+}
+.item-name{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #44b;
+    color:white;
+    padding:5px;
+}
+.fact-line{
+    display:flex;
+    align-items: center;
+    background-color: #44b;
+    color: white;
+    padding:10px;
+    letter-spacing: 2px;
+}
+@media screen (max-width:768px) {
+    .item{
+    flex-basis:100%;
+}
+    .items {
+    flex-direction:column;
+    }
+}

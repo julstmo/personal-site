@@ -1,0 +1,91 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 256px; 
+    padding:1em;   
+}
+main{
+    background-color:lightgray;
+}
+.categories{
+    text-decoration: none;
+    font-family: 'Dosis';
+    text-align: center;
+    text-transform: uppercase;
+}
+.categories a:hover{
+    background: #228;
+    box-shadow: 0 2px 5px -2px black;
+}
+.c{
+    color:white;
+    font-size:small;
+    text-decoration: none;
+    margin-bottom: 5%;
+    background-color: #44b;
+    padding: 10px;
+    width:150px
+}
+.e{
+    color:white;
+    font-size:small;    
+    text-decoration: none;
+    margin-bottom: 5%;
+    background-color: #44b;
+    padding: 10px;
+    width:150px;
+}
+.b{
+    color:white;
+    font-size:small;   
+    text-decoration: none;
+    margin-bottom: 5%;
+    background-color: #44b;
+    padding: 10px;
+    width:150px
+}
+.f{
+    color:white;
+    font-size:small;    
+    text-decoration: none;
+    margin-bottom: 5%;
+    background-color: #44b;
+    padding: 10px;
+    width:150px;
+}
+.a{
+    color:white;
+    font-size:small;    
+    text-decoration: none;
+    margin-bottom: 5%;
+    background-color: #44b;
+    padding: 10px;
+    width:150px;
+}
+.s{
+    color:white;
+    font-size:small;    
+    text-decoration: none;
+    margin-bottom: 5%;
+    background-color: #44b;
+    padding: 10px;
+    width:150px;
+}
+.t{
+    color:white;
+    font-size:small;    
+    text-decoration: none;
+    margin-bottom: 5%;
+    background-color: #44b;
+    padding: 10px;
+    width:150px;
+}
+.g{
+    color:white;
+    font-size:small;    
+    text-decoration: none;
+    margin-bottom: 5%;
+    background-color: #44b;
+    padding: 10px;
+    width:150px;
+}

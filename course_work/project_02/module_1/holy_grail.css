@@ -1,0 +1,19 @@
+#app{
+    display:flex;
+    flex-direction: column;
+}
+main{
+    display:flex;
+    flex-direction: row;
+    flex:1;
+}
+nav{
+    display:flex;
+    flex:0 0 10%;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+aside{
+    display:flex;
+    flex:0 0 10%;
+}

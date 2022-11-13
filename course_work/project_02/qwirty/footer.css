@@ -1,0 +1,25 @@
+footer{
+    display:flex;
+    flex-direction: row;
+    background-color: #255;
+    padding:1rem;
+    font-family: 'Dosis';
+    justify-content: center;
+}
+section{
+    display:flex;
+    flex-direction: column;
+    margin-right: 8rem;
+}
+h2{
+    font-size: smaller;
+    color:white;
+    border-bottom: solid white 1px;
+    letter-spacing: 3px;
+}
+a{
+    font-size:x-small;
+    text-decoration: none;
+    color:white;
+    border-right: none;
+}
